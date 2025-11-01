@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Aditya Raval — Portfolio</title>
+  <meta name="description" content="Aditya Raval — BCA Cyber Security student. Projects, contact and links." />
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--muted:#9aa4b2;--accent:#38bdf8}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;background:linear-gradient(180deg,var(--bg),#071029);color:#e6eef8;line-height:1.5}
+    .wrap{max-width:900px;margin:40px auto;padding:24px}
+    .card{background:linear-gradient(180deg,rgba(255,255,255,0.02),transparent);border:1px solid rgba(255,255,255,0.04);padding:22px;border-radius:14px;box-shadow:0 10px 30px rgba(2,6,23,0.6)}
+    header{display:flex;gap:18px;align-items:center}
+    .avatar{width:86px;height:86px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#7c3aed);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:28px;color:#071029}
+    h1{margin:0;font-size:26px}
+    p.lead{color:var(--muted);margin:6px 0 18px}
+    .links{display:flex;gap:10px;flex-wrap:wrap}
+    a.button{display:inline-block;padding:8px 12px;border-radius:10px;border:1px solid rgba(255,255,255,0.05);text-decoration:none;background:rgba(255,255,255,0.02)}
+    section{margin-top:18px}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    .project{padding:12px;border-radius:10px;background:rgba(255,255,255,0.01);border:1px solid rgba(255,255,255,0.02)}
+    footer{margin-top:20px;text-align:center;color:var(--muted);font-size:13px}
+    @media(max-width:700px){.grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <header>
+        <div class="avatar">AR</div>
+        <div>
+          <h1>Aditya Raval</h1>
+          <p class="lead">BCA — Cyber Security student • I build simple, useful web tools and learning Ethical Hacking.</p>
+          <div class="links">
+            <a class="button" href="https://github.com/aditya-ravall" target="_blank" rel="noopener">GitHub</a>
+            <a class="button" href="https://aditya-ravall.github.io/password-strength-checker/" target="_blank" rel="noopener">Password Checker</a>
+            <a class="button" href="#contact">Contact</a>
+          </div>
+        </div>
+      </header>
+
+      <section>
+        <h2>About</h2>
+        <p class="lead">I’m an undergraduate in BCA (Cyber Security). I make small web projects (HTML/CSS/JS) and study Ethical Hacking & security topics. This page is a compact, shareable portfolio link for my GitHub profile.</p>
+      </section>
+
+      <section>
+        <h2>Featured Projects</h2>
+        <div class="grid">
+          <div class="project">
+            <strong>Password Strength Checker</strong>
+            <p class="lead">A simple front-end tool to test and score passwords. <a href="https://aditya-ravall.github.io/password-strength-checker/" target="_blank" rel="noopener">Preview</a></p>
+          </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p class="lead">Email: <a href="mailto:dkg135227@gmail.com">dkg135227@gmail.com</a> </p>
+      </section>
+
+      <footer>
+        <div>• Updated: Nov 2, 2025</div>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
