@@ -1,2 +1,1 @@
-Hello 👋 
-(https://aditya-ravall.github.io/)
+Hello 👋 (https://aditya-ravall.github.io/)
